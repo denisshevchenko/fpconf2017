@@ -179,30 +179,30 @@ class: middle, center
 
 ### <i class="icofont icofont-user-alt-1" style="color: #f3bdf3;"></i> <i class="icofont icofont-user-alt-1" style="color: #ddd;"></i> <i class="icofont icofont-user-alt-1" style="color: #ddd;"></i> <i class="icofont icofont-user-alt-1" style="color: #ddd;"></i> <i class="icofont icofont-user-alt-1" style="color: #ddd;"></i> <i class="icofont icofont-user-alt-1" style="color: red;"></i> <i class="icofont icofont-user-alt-1" style="color: #ddd;"></i> <i class="icofont icofont-user-alt-1" style="color: red;"></i> <i class="icofont icofont-user-alt-1" style="color: #ddd;"></i> <i class="icofont icofont-user-alt-1" style="color: #f3bdf3;"></i> <i class="icofont icofont-user-alt-1" style="color: #ddd;"></i>
 
-### <span style="color: red;">Слотлидеры (<span style="font-size: 70%;">aka</span> майнеры)</span>
+### <span style="color: red;">Майнеры
 
 ---
 
-class: middle
-
+<div style="padding-top: 3.23em;"></div>
 ```
+
+
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┅ t
 ```
 
 ---
 
-class: middle
-
+<div style="padding-top: 3.23em;"></div>
 ```
-┗━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━┻━┅ t
-     Эпоха 0         Эпоха 1
+
+
+┗━━━━━━┻━━━━━━┻━━━━━━┻━┅┅━┻━━━━━━┻┅ t
+  Сл0    Сл1    Сл2         СлN
 ```
 
 ---
 
 ```
-╭──────────── Эпоха 0 ───────────╮
-
  ╔════╗
  ║ Б0 ║
  ╚════╝
@@ -213,8 +213,6 @@ class: middle
 ---
 
 ```
-╭──────────── Эпоха 0 ───────────╮
-
  ╔════╗ ┏━━━━┓
  ║ Б0 ║ ┃ Б1 ┃
  ╚════╝ ┗━━━━┛
@@ -222,15 +220,11 @@ class: middle
   Сл0    Сл1    Сл2         СлN
 ```
 
-.slotleaderslist[
-<i class="icofont icofont-tick-mark" style="color: green;"></i> Слотлидер1
-]
+##&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="icofont icofont-user-alt-1" style="color: red;"></i><span style="font-size: 50%;">1</span>
 
 ---
 
 ```
-╭──────────── Эпоха 0 ───────────╮
-
  ╔════╗ ┏━━━━┓ ┏━━━━┓
  ║ Б0 ║ ┃ Б1 ┃ ┃ Б2 ┃
  ╚════╝ ┗━━━━┛ ┗━━━━┛
@@ -238,17 +232,11 @@ class: middle
   Сл0    Сл1    Сл2         СлN
 ```
 
-.slotleaderslist[
-<i class="icofont icofont-tick-mark" style="color: green;"></i> Слотлидер1
-
-<i class="icofont icofont-tick-mark" style="color: green;"></i> Слотлидер2 
-]
+##&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="icofont icofont-user-alt-1" style="color: red;"></i><span style="font-size: 50%;">1</span>&nbsp;&nbsp;&nbsp;<i class="icofont icofont-user-alt-1" style="color: red;"></i><span style="font-size: 50%;">2</span>
 
 ---
 
 ```
-╭──────────── Эпоха 0 ───────────╮
-
  ╔════╗ ┏━━━━┓ ┏━━━━┓      ┏━━━━┓
  ║ Б0 ║ ┃ Б1 ┃ ┃ Б2 ┃      ┃ БN ┃
  ╚════╝ ┗━━━━┛ ┗━━━━┛      ┗━━━━┛
@@ -256,13 +244,30 @@ class: middle
   Сл0    Сл1    Сл2         СлN
 ```
 
-.slotleaderslist[
-<i class="icofont icofont-tick-mark" style="color: green;"></i> Слотлидер1
+##&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="icofont icofont-user-alt-1" style="color: red;"></i><span style="font-size: 50%;">1</span>&nbsp;&nbsp;&nbsp;<i class="icofont icofont-user-alt-1" style="color: red;"></i><span style="font-size: 50%;">2</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="icofont icofont-user-alt-1" style="color: red;"></i><span style="font-size: 50%;">N</span>
 
-<i class="icofont icofont-tick-mark" style="color: green;"></i> Слотлидер2 
+---
 
-<i class="icofont icofont-tick-mark" style="color: green;"></i> СлотлидерN
-]
+```
+ ╔════╗ ┏━━━━┓ ┏━━━━┓      ┏━━━━┓
+ ║ Б0 ║ ┃ Б1 ┃ ┃ Б2 ┃      ┃ БN ┃
+ ╚════╝ ┗━━━━┛ ┗━━━━┛      ┗━━━━┛
+┗━━━━━━┻━━━━━━┻━━━━━━┻━┅┅━┻━━━━━━┻┅ t
+  Сл0    Сл1    Сл2         СлN
+
+  
+╰──────────── Эпоха 0 ───────────╯
+```
+
+---
+
+<div style="padding-top: 3.23em;"></div>
+```
+
+
+┗━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━┻━┅ t
+     Эпоха 0         Эпоха 1
+```
 
 ---
 
@@ -272,9 +277,10 @@ class: middle, center
 
 ---
 
-class: middle
-
+<div style="padding-top: 3.23em;"></div>
 ```
+
+
 ┗━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━┻━┅ t
      Эпоха 0         Эпоха 1
 ```
@@ -295,6 +301,14 @@ class: middle
 
 class: center
 
+# &nbsp;
+
+# <i class="icofont icofont-envelope-open" style="color: purple;"></i>
+
+---
+
+class: center
+
 # <i class="icofont icofont-swoosh-up"></i>
 
 # <i class="icofont icofont-swoosh-left"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="icofont icofont-envelope" style="color: purple;"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="icofont icofont-swoosh-right"></i>
@@ -307,9 +321,23 @@ class: center
 
 # <i class="icofont icofont-swoosh-down"></i>
 
-# <i class="icofont icofont-swoosh-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="icofont icofont-envelope-open" style="color: purple;"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="icofont icofont-swoosh-left"></i>
+# <i class="icofont icofont-swoosh-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="icofont icofont-envelope" style="color: purple;"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="icofont icofont-swoosh-left"></i>
 
 # <i class="icofont icofont-swoosh-up"></i>
+
+---
+
+class: center
+
+# &nbsp;
+
+# <i class="icofont icofont-envelope-open" style="color: purple;"></i>
+
+---
+
+class: middle, center
+
+## _&fnof;_ (seed) &rarr; i
 
 ---
 
@@ -341,23 +369,9 @@ class: center
 
 ---
 
-class: center
+class: middle, center
 
-### Итак&hellip;
-
-.left-we[
-Проект
-
-<img class="github-logo" src="./static/img/github-logo.svg" />
-]
-
-.right-we[
-[cardanohub.org](https://www.cardanohub.org/en/home/)
-
-[/input-output-hk/cardano-sl](https://github.com/input-output-hk/cardano-sl/)
-]
-
-
+## [**cardano**hub.org](https://www.cardanohub.org/en/home/)
 
 ---
 
