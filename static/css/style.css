@@ -324,20 +324,16 @@ a:active {
     color: #999;
 }
 
-.btc-logo-area {
-    padding-top: 5.0em;
-}
-
 .btc-logo {
-    width: 12em !important;
+    width: 10.5em !important;
 }
 
 .ethereum-logo {
-    width: 12em !important;
+    width: 10em !important;
 }
 
 .ada-logo {
-    width: 23em !important;
+    width: 10em !important;
 }
 
 .iohk-logo {
