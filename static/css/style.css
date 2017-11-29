@@ -52,34 +52,25 @@ h4 {
 
 a:link {
     text-decoration: none;
-    color: #007849;
-    color: #233237;
-    color: #008F95;
+    color: RoyalBlue;
     text-shadow: 2px 2px 6px #ccc;
 }
 
 a:visited {
     text-decoration: none;
-    color: #429fca;
-    color: #233237;
-    color: #008F95;
+    color: RoyalBlue;
     text-shadow: 2px 2px 6px #ccc;
 }
 
 a:hover {
     text-decoration: none;
-    color: #429fca;
-    color: #007849;
-    color: #008F95;
+    color: RoyalBlue;
     text-shadow: 2px 2px 6px #ccc;
 }
 
 a:active {
     text-decoration: none;
-    color: #429fca;
-    color: #007849;
-    color: #233237;
-    color: #008F95;
+    color: RoyalBlue;
     text-shadow: 2px 2px 6px #ccc;
 }
 
@@ -356,6 +347,10 @@ a:active {
     text-align: center;
 }
 
+.github-logo {
+    width: 0.85em !important;
+}
+
 .cardano-title-area {}
 
 .cardano-title {
@@ -391,4 +386,42 @@ a:active {
 
 .whyhaskell {
     font-size: 2.4em;
+}
+
+.left-why {
+    float: left;
+    width: 46%;
+    margin-right: 8%;
+    text-align: right;
+    font-size: 2.3em;
+    line-height: 1.7em;
+}
+
+.left-why p, .right-why p {
+    margin: 0;
+}
+
+.right-why {
+    text-align: left;
+    font-size: 2.3em;
+    line-height: 1.7em;
+}
+
+.left-we {
+    float: left;
+    width: 20%;
+    margin-right: 6%;
+    text-align: right;
+    font-size: 2.6em;
+    line-height: 1.7em;
+}
+
+.left-we p, .right-we p {
+    margin: 0;
+}
+
+.right-we {
+    text-align: left;
+    font-size: 2.6em;
+    line-height: 1.7em;
 }
